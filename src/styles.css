@@ -1,0 +1,13 @@
+/* CLASE 38 ESTILOS CSS
+Archivo de estilos generales (importar en el main.jsx)*/
+
+/* por segmento para indicar el ambito o alcance
+elementos en orden alfabético */
+html, body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    padding: 20px;
+}
+
