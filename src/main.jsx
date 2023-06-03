@@ -15,6 +15,7 @@ import ReactDOM from 'react-dom/client'
 import { FirstApp } from './FirstApp'
 
 import './styles.css';  //importo estilos
+import { CounterApp } from './CounterApp';
 
  
 //Renderizar mi app-------------------
@@ -22,11 +23,16 @@ ReactDOM.createRoot( document.getElementById('root') ).render(
     <React.StrictMode>
         {/* <HelloWordApp /> */}
         {/* llamo al componente y le paso los parametros o props */}
-        <FirstApp   titulo = 'Hola soy Pedro!!' 
+        {/* <FirstApp   titulo = 'Hola soy Pedro!!' 
                     // subtitulo = 'Esto es un subtitulo'
                     numero = { 3 }
-                    esTitulo/>
+                    esTitulo/> */}
         {/* props tipo numero entre llaves,
             los booleanos solo se nombran y pasan true */}
+
+        <CounterApp 
+            value = { 3 } 
+        />
+
     </React.StrictMode>
 )
