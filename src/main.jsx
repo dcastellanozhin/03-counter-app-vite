@@ -16,13 +16,13 @@ import { FirstApp } from './FirstApp'
 
 import './styles.css';  //importo estilos
 
-
+ 
 //Renderizar mi app-------------------
 ReactDOM.createRoot( document.getElementById('root') ).render(
     <React.StrictMode>
         {/* <HelloWordApp /> */}
         {/* llamo al componente y le paso los parametros o props */}
-        <FirstApp   titulo = 'Hola soy Daniel!' 
+        <FirstApp   titulo = 'Hola soy Daniel!!' 
                     // subtitulo = 'Esto es un subtitulo'
                     numero = { 3 }
                     esTitulo/>
